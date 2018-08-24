@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 100%;
+	height: 92px;
+	background-color:white;
+	z-index: 999999;
+	position: absolute;
+	top: 0;
+}
+.box .ying{
+	width: 100%;
+	height: 40px;
+	position: relative;
+}
+.box .ying li{
+	float: left;
+	line-height: 40px;
+	position: absolute;
+	font-size: 13px;
+	cursor: pointer;
+}
+.box .ying .l3{
+	right: 40px;
+}
+.box .ying .l2{
+	right: 90px;
+}
+.box .ying .l1{
+	right: 140px;
+}
+.box .ying li button{
+	background-color: white;
+	outline: none;
+	width: 40px;
+}
+.nav_ul{
+	background-color: white;
+	width: 100%;
+}
+.box .top_box{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	border: 1px solid gray;
+} 
+.box .top_box .logo{
+	float: left;
+	margin-left: 83px;
+} 
+.box .top_box .logo img{
+	height: 50px;
+}
+.box .top_box .nav_ul{
+	float: left;
+}
+.box .top_box .nav_ul .dong{
+	margin-left: 100px;
+	float: left;
+}
+.box .top_box .nav_ul .yc{
+	display: none;
+	width: 100%;
+    position: absolute;
+    background: #fff;
+    left:0px;
+    z-index: 2;
+    margin-top: 1px;
+    box-shadow: 0 1px 6px #ececec;
+    padding-bottom: 60px;
+}
+.box .top_box .nav_ul .yc li{
+	display: table-cell;
+    vertical-align: top;
+    padding: 0 20px;
+    margin-left: 100px;
+}
+.box .top_box .nav_ul .yc li a{
+	display: block;
+	font-size: 12px;
+	margin-top: 20px;
+	color: gray;
+}
+.top_box .nav_ul .title{
+	display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size:20px;
+    color: #4c4948;
+    text-align: center;
+    min-width: 100px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.beijing{
+	width: 1349px;
+	height: 320px;
+	margin: 0 auto;
+}
+.beijing img{
+	width: 1349px;
+	height: 320px;
+	margin: 0 auto;
+}
+/*模板01*/
+#fuwu{
+	width: 1280px;
+	height: 350px;
+	border-bottom:1px solid gray;
+	margin: 0 auto;
+}
+#content{
+	width: 290px;
+	height: 240px;
+	border-right: 1px dashed gray;
+	margin-left: 22px;
+	margin-top: 50px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+#header{
+	color: rgb(196,79,62);
+	line-height: 70px;
+}
+#ps{
+	text-align: left;
+	margin-top: -20px;
+	font-size: 13px;
+	color: gray;
+}
+#look{
+	color: gray;
+	font-size: 13px;
+	position: absolute;
+	left: 210px;
+	top: 210px;
+}
+#aishu{
+	width: 1280px;
+	height: 280px;
+	margin: 0 auto;
+}
+#aishu h3{
+	color: rgb(196,79,62);
+	margin-top: 55px;
+}
+#aishu p{
+	color: gray;
+	margin-top: 25px;
+	font-size: 15px;
+}
+#zhichi{
+	width: 1280px;
+	height: 280px;
+	margin: 0 auto;
+	background-color: rgb(255,255,255);
+}
+#zhichi h3{
+	width: 1280px;
+	height: 40px;
+	line-height:40px;
+	border-bottom: 1px solid gray;
+}
+#content2{
+	float: left;
+}
+#content2 .left_tu{
+	width: 320px;
+	height: 118px;
+	margin-top: 40px;
+}
+#content2 .left_tu img{
+	float: left;
+}
+#content2 .left_tu p{
+	float: left;
+	color: gray;
+	line-height: 25px;
+}
+#content2 .left_tu p:hover{
+	color: red;
+}
+#content2 .left_tu p .small{
+	font-size: 13px;
+}
+#phone{
+	color: gray;
+}
+.select{
+	width: 1349px;
+	height: 443px;
+	margin: 0 auto;
+}
+.select img{
+	width: 1349px;
+	height: 443px;
+}
+.ends{
+	width: 1349px;
+	height: 420px;
+	background-color:rgb(51,56,59);
+	position: relative;
+}
+.ends .touming{
+	float: left;
+	width: 200px;
+	height: 420px;
+	background-color: rgb(77,83,87);
+}
+.ends .first_ul{
+	width: 200px;
+	height: 266px;
+}
+.ends .first_ul li{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	margin-left: 46px;
+	color: white;
+}
+.ends .first_ul li img{
+	vertical-align: middle;
+}
+.ends .ul_two{
+	float: left;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.ends .ul_two li{
+	width: 230px;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	color: white;
+}
+.ends li{
+	font-size:13px;
+}
+.ends .da{
+	font-size: 20px;
+}
+.ends .fei{
+	float: left;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.ends .fei .guai{
+	width: 100px;
+	background-color: rgb(68,74,77);
+}
+.ends .fei .guai img{
+	margin-top: 10px;
+	margin-left: 0px;
+}
+.ends .fei .guai span{
+	font-size: 13px;
+	margin-left: 10px;
+	color: white;
+}
+.ends .zui .yewan{
+	width:1200;
+	position: absolute;
+	left: 40px;
+	bottom:10px;
+}
+.ends .zui ul li{
+	z-index: 9999999999999;
+	float: left;
+	margin-top: 120px;
+	color: white;
+}

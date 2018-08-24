@@ -1,0 +1,34 @@
+{
+	"code":200,
+	"msg":"成功!",
+	"data":[
+		{
+			"type":"text",
+			"images":"imgs/55.jpg",
+			"title":"爱数E3系统",
+			"text":"点击进入>>",
+			"phone":"服务热线：400-880-1569"
+		},
+		{
+			"type":"text",
+			"images":"imgs/56.jpg",
+			"title":"产品资料与下载",
+			"text":"点击进入>>",
+			"phone":"投诉热线：021-5432 6200"
+		},
+		{
+			"type":"text",
+			"images":"imgs/57.png",
+			"title":"产品FAQ",
+			"text":"点击进入>>",
+			"phone":"在线客服：点击QQ交谈"
+		},
+		{
+			"type":"text",
+			"images":"imgs/58.png",
+			"title":"服务政策",
+			"text":"点击进入>>",
+			"phone":"售后热线：136-880-1569"
+		}
+	]
+}
